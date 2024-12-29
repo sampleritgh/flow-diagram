@@ -1,0 +1,65 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.app {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+aside {
+  width: 200px;
+  padding: 10px;
+  background-color: #f4f4f4;
+  border-right: 1px solid #ddd;
+}
+
+aside input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+aside button {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+aside button:hover {
+  background-color: #0056b3;
+}
+.controls {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  margin: 3px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #add8e6;
+  border: 0px;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+  font-size: 14px;
+  width: 150px;
+}
+.button {
+  background-color: green;
+}
